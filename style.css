@@ -1,0 +1,111 @@
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: relative;
+}
+
+body{
+  back-ground color: black; 
+  color: black;
+  font-family: space mono;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  display: block;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: black;
+  color: black;
+}
+
+img{
+  border-width: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+iframe{
+    border-width: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+h1{
+  font-size: 45px;
+}
+
+p{
+  font-size: 25px;
+}
+
+#welcome-section{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#projects{
+  height: 500px;
+  text-align: center;
+  
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
+.column {
+  display: flex;https://i.pinimg.com/474x/05/95/fd/0595fdbad916c68313c2c3e9ed7d9add.jpg
+  flex-direction: column;
+  flex: 1;
+ 
+}
+.profile-links{
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  #profile-link{
+    display: none;
+  }
+}
+
+
+
+
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
