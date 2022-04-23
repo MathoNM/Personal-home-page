@@ -1,7 +1,11 @@
-<!DOCTYPE HTML>
-<html lang="en">
-
+<!DOCTYPE html>
+<html lang="en" >
 <head>
+  <meta charset="UTF-8">
+  <title>CodePen - Personal Home Page  Template</title>
+  <link rel='stylesheet' href='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.css'><link rel="stylesheet" href="./style.css">
+
+
 
   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
   <link rel="styleshhttps://codepen.io/NMatho/pen/bGoQrGReet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,7 +18,8 @@
 
 </head>
 
-<body>
+<body id="fullpage">
+
   <main>
     <!-- Top Navigation Menu -->
     <div class="topnav">
@@ -26,6 +31,9 @@
       <a href="https://www.facebook.com/ntshumayelo.matho" target="_blank" class="active">
         <i class="fab fa-facebook fa"></i></a>
     </div>
+
+    <button id="day">day mode</button>
+    <button id="night">night mode</button>
 
     <!-- Navigation links (hidden by default) -->
     <div id="myLinks">
@@ -89,6 +97,9 @@
 Don't delete!-->
   <aside id="tests" aria-label="Test Readout." aria-live="polite" style="overflow:auto"></aside>
 
-</body>
+<script src="script.js"></script>
+  <script src='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/core.js'></script>
+<script src='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.js'></script><script  src="./script.js"></script>
 
+</body>
 </html>
