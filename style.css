@@ -2,13 +2,17 @@
 .topnav {
   overflow: hidden;
   background-color: black;
+  color: white;
   position: relative;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
 }
 
 body{
-  back-ground color: black; 
   color: black;
-  font-family: space mono;
+  font-family: 'Space Mono';
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
