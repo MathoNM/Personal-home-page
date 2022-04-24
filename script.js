@@ -1,3 +1,20 @@
+document.getElementById('day').addEventListener('click', (event) => {
+  let element_page = document.getElementById('fullpage');
+  element_page.style.backgroundColor = '#ffffff';
+  element_page.style.color = '#330000';
+
+});
+
+document.getElementById('night').addEventListener('click', (event) => {
+  let element_list2 = document.getElementById('fullpage');
+  element_list2.style.backgroundColor = 'black';
+  element_list2.style.color = '#666666';
+
+});
+
+
+
+
 /* =================
   TESTS, LOOK AT THESE
   Reading tests will always help you discover your requirements.
